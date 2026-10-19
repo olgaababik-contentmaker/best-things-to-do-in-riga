@@ -23,6 +23,7 @@ h1 em{font-weight:500;color:var(--accent)}
 .metadata-copy .author-name{font-size:15px}
 .metadata-copy .author-role{font-size:14px}
 .article-meta{display:flex;gap:9px;grid-column:1/-1;font-size:13px;color:var(--muted)}
+.article-header .article-meta>span:not([aria-hidden]){font-weight:600}
 figure{margin:0}
 img{display:block;width:100%;height:auto}
 .hero-figure img{height:420px;object-fit:cover;object-position:50% 50%}
